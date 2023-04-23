@@ -1,12 +1,11 @@
 import React from "react";
-import "./tailwind.css";
+import "./index.css";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
 import Login from "./pages/Login";
 import About from "./pages/About";
-
 import Loading from "./components/Loading";
 import Featured from "./pages/products/Featured";
 const LazyFeatured = React.lazy(() => import("./pages/products/Featured"));
